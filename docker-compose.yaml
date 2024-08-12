@@ -1,0 +1,18 @@
+version: '3.8' 
+
+services:
+  web:
+    build: .
+    ports:
+      - "3010:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - node
+
+  node:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "npm install && npm run build"
