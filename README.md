@@ -8,7 +8,7 @@ quick and with AI
 <br/>
 ☑ Preview
 <br/>
-<a href=""><strong> 📺 Live</strong></a>
+<a href="https://quick-journey-k4g8u7vw7-ayshenms-projects.vercel.app"><strong> 📺 Live</strong></a>
 
 ![quickJourney](./src/assets/quick.png "quicks")
   
